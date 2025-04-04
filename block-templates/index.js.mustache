@@ -6,11 +6,14 @@ import { InnerBlocks } from '@wordpress/block-editor';
 import './style.scss';
 
 import Edit from './edit';
+{{#isInnerBlocksVariant}}
+import Save from './save';
+{{/isInnerBlocksVariant}}
 import metadata from './block.json';
 
 registerBlockType(metadata.name, {
 	edit: Edit,
 	{{#isInnerBlocksVariant}}
-	save: () => <InnerBlocks.Content />,
+	save: Save,
 	{{/isInnerBlocksVariant}}
 });

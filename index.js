@@ -20,7 +20,6 @@ module.exports = {
 		editorStyle: false,
 		style: 'file:./style.css',
 		render: 'file:./render.php',
-		viewScript: 'file:./view.js',
 	},
 	variants: {
 		default: {},
@@ -30,7 +29,6 @@ module.exports = {
 				html: false,
 				interactivity: true,
 			},
-			viewScript: false,
 			viewScriptModule: 'file:./view.js',
 		},
 	},
