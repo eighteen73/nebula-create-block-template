@@ -1,0 +1,25 @@
+{
+  "name": "@eighteen73/create-block-template",
+  "version": "0.1.0",
+  "description": "Template for use with Nebula to scaffold blocks within a project to eighteen73 standards.",
+  "author": "eighteen73",
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "create block",
+    "gutenberg",
+    "eighteen73",
+    "nebula"
+  ],
+  "homepage": "https://github.com/eighteen73/nebula-create-block-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eighteen73/nebula-create-block-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eighteen73/nebula-create-block-template/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
