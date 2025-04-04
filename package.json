@@ -1,5 +1,5 @@
 {
-  "name": "@eighteen73/create-block-template",
+  "name": "@eighteen73/nebula-create-block-template",
   "version": "0.1.0",
   "description": "Template for use with Nebula to scaffold blocks within a project to eighteen73 standards.",
   "author": "eighteen73",
