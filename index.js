@@ -18,7 +18,7 @@ module.exports = {
 		wpEnv: false,
 		version: false,
 		editorStyle: false,
-		style: 'file:./style.css',
+		style: 'file:./style-index.css',
 		render: 'file:./render.php',
 	},
 	variants: {
